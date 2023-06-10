@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+html {
+    background-color: #f0f2f5;
+    font-size: 16px;
+}
+
+.global-popper {
+    max-width: 400px;
+}
+
+/* 
+********** from ldq.css **********
+ */
+
+/* 
+********** 原子化（参考于tailwindcss） **********
+ */
+.hidden {
+    display: none;
+}
+.visible {
+    visibility: visible;
+}
+.text-center {
+    text-align: center;
+}
+.p-10 {
+    padding: 2.5rem;
+}
+.m-4 {
+    margin: 1rem;
+}
+.m-10 {
+    margin: 2.5rem;
+}
+.m-40 {
+    margin: 10rem;
+}
+.m-auto {
+    margin: auto;
+}
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
